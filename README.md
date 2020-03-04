@@ -24,7 +24,11 @@ Over the years Twitter has continued to become a stronger social media platform 
 Data gathered for this analysis was collected using twitters API along with python library called ```GetOldTweets```.  It is stored in a mondgodb database so no, files are included in this ripo.  However, to replicate this study, the data can be obtain via ```tweepy``` and ```GetOldTweets``` libraries using python.  Source code is found under ```scr``` folder. 
 
 ###### Conclusion
-Obtaining a reliable model to predict likability of a tweet based on NLP was not possible with the current data.  There are many factors outside of twitter that influence the users to interact with candidates.  However, K-means clustering could provide insight into potential key comments buy clustering candidates together through talking points and see if they full under the party line discourse.  
+Obtaining a reliable model to predict likability of a tweet based on NLP was not possible with the current data.  There are many factors outside of twitter that influence the users to interact with candidates.  However, K-means clustering could provide insight into potential key comments by clustering candidates together through talking points and see if they fall under the party-line discourse.  The current attempt did not outperform the base model of rolling average of the past 15 tweets.  
+<p align="center">
+  <img src="images/dnc_candidates.png">
+</p>  
+
 
 ### Sample Information:
 Detailed Information on the analysis process is on ```dnc_race.ipynb``` file, under the ```notebooks``` folder.  The information was from DNC Candidates twitter feeds from the beginning of their twitter accounts to February 24th.  Analysis was conducted from the candidates announcement to February 24th.  
