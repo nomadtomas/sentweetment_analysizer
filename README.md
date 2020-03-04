@@ -18,7 +18,7 @@ Over the years Twitter has continued to become a stronger social media platform 
 
 ### What are you trying to do?
 <p align="center">
-  <img src="images/tweetstats.png">
+  <img src="images/dnc_candidates.png">
 </p>  
 
 ## General Information
