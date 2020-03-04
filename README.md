@@ -25,19 +25,15 @@ Over the years Twitter has continued to become a stronger social media platform 
   <img src="images/realtylogos.png">
 </p>
 
-Data used for this analysis was gathered from Zillow, Realtor, and Realty Austin websites.  The data gathering techniques where separated into three phases, which are located under the ```src``` folder.  Two ```csv``` files, the results of the webscraping, are stored in the ```data``` directory.
-
-1)   Scraping:  Three scrappers were used to gather current listing information from each site, code can be found under ```scrapper``` folder.  
-2)  Transform:  It was transformed into a clean pandas dataframe through custom functions, located on the ```data_transformer``` folder.
-3)  Cleansing:  Functions on the ```data_cleansing``` folder utilized the transform functions to clean the data and store clean data back to mongodb.   
+Data gathered for this analysis was collected using twitters API along with python library called ```GetOldTweets```.
 
 ###### Conclusion
 
 
 ### Sample Information:
-Detailed Information on the analysis process is on ```dnc_race.ipynb``` file, under the ```notebooks``` folder.  Data gathered for this analysis was collected using twitters API along with python library called ```GetOldTweets```.  The information was from DNC Candidates twitter feeds from the beginning of their twitter accounts to February 24th.  Analysis was conducted from the candidates announcement to February 24th.  
+Detailed Information on the analysis process is on ```dnc_race.ipynb``` file, under the ```notebooks``` folder.  The information was from DNC Candidates twitter feeds from the beginning of their twitter accounts to February 24th.  Analysis was conducted from the candidates announcement to February 24th.  
 <p align="center">
-  <img src="images/weekly_tweet_count.png" width="400">
+  <img src="images/weekly_tweet_count.png">
 </p>
 
 ## Technologies
